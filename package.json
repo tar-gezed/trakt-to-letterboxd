@@ -1,5 +1,26 @@
 {
+  "name": "trakt-to-letterboxd",
+  "version": "1.0.0",
+  "description": "Converts Trakt watched/rated movie exports to Letterboxd CSV import format.",
+  "main": "trakt-to-letterboxd.js",
+  "scripts": {
+    "start": "node trakt-to-letterboxd.js",
+  },
+  "keywords": [
+    "trakt",
+    "letterboxd",
+    "import",
+    "export",
+    "csv",
+    "movies"
+  ],
+  "author": "Targezed",
+  "license": "MIT",
   "dependencies": {
     "csv-writer": "^1.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tar-gezed/trakt-to-letterboxd.git"
   }
 }
